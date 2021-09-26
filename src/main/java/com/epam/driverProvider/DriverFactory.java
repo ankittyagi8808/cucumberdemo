@@ -64,7 +64,7 @@ public class DriverFactory {
 		browserOptions.setCapability("browserVersion", "latest");
 		//browserOptions.setCapability("build", "1234");
 		MutableCapabilities sauceOptions = new MutableCapabilities();
-		sauceOptions.setCapability("build", "1234");
+		sauceOptions.setCapability("build", System.getenv("JENKINS_BUILD_NUMBER"));
 		sauceOptions.setCapability("tags", "tag1");
 		sauceOptions.setCapability("name", "webdriver Demo test");
 		//sauceOptions.setCapability("tunnelIdentifier","oauth-ankittlife11-99eef_tunnel_id");
