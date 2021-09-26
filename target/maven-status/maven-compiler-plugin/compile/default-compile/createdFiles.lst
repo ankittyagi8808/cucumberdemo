@@ -1,0 +1,10 @@
+com\epam\driverProvider\DriverFactory$1.class
+com\epam\driverProvider\IWebdriverProvider.class
+com\epam\driverProvider\SupportedBrowser.class
+com\epam\driverProvider\WebDriverProvider$DelegationBrowserNotFound.class
+com\epam\driverProvider\DriverFactory.class
+com\epam\drivers\ScreenshotChromeWebdriver.class
+com\epam\driverProvider\WebDriverProvider.class
+com\epam\configuration\BrowserCapabilities.class
+com\epam\driverProvider\DriverFactory$InvalidBrowserTypeException.class
+org\experiment\App.class
